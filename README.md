@@ -2,6 +2,10 @@
 The Student Results Management System is a Python-based project designed to manage and analyze student results, course offerings, and student enrollments. Leveraging Python’s object-oriented programming (OOP) concepts, the system organizes and processes data through classes and methods, ensuring efficient data handling and clear, structured reports. It reads data from text files, processes this data using OOP principles, and displays detailed reports about students' performances and course statistics.
 
 
+![Prog_fun_A3](https://github.com/user-attachments/assets/c3d93ca2-5836-4bec-9cf1-ba799b449f0c)
+
+
+
 ## Overview of the Student Results Management System
 The Student Results Management System is designed to efficiently manage and analyze student performance data. The system begins by executing the **main()** function, which loads three essential data files: courses, students, and results. These files are read and processed by the **read_courses**, **read_students**, and **read_results** methods within the Results class, respectively. This class is central to the system, handling data management and performing operations on courses, students, and scores. Once the data is loaded, the **display_results()** method is called to compute and display statistics for each student, showing their marks across various subjects. The **display_course_information()** method then provides detailed statistics on each course, including course ID, name, type, credit, and semester, and calculates averages and completion rates. It also identifies and displays the most challenging core and elective courses based on average scores. Following this, the **display_student_information()** method calculates and displays GPA and other relevant statistics for **both undergraduate (UG) and postgraduate (PG) students**. Finally, the **display_best_student()** method highlights the top-performing PG and UG students, showcasing their course IDs and GPAs. The system ensures that all relevant information is displayed on the screen and stored in a **reports.txt** file for record-keeping.
 
